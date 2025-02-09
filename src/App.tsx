@@ -96,7 +96,7 @@ function App() {
               alt="Telangana Police Logo"
               className="w-8 h-8 object-contain"
             />
-            <span className="font-bold text-xl">Telangana Police</span>
+            <span className="font-bold text-xl">Telangana State Police</span>
           </button>
           <div className="flex items-center gap-4">
             {connected && (
@@ -137,7 +137,7 @@ function App() {
                 className="flex justify-center mb-8"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Telangana_Police_Logo.png/640px-Telangana_Police_Logo.png"
+                  src=""
                   alt="Telangana Police Logo"
                   className="w-32 h-32 object-contain animate-pulse"
                 />
@@ -170,7 +170,7 @@ function App() {
                 >
                   {connecting ? 'Connecting...' : (
                     <>
-                      Connect Wallet to File FIR
+                      Connect Wallet
                       <ChevronRight className="w-5 h-5" />
                     </>
                   )}
